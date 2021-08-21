@@ -23,6 +23,8 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('demoapp.urls')),
+    path('reg/',include('regapp.urls')),
+    
 ]
 
 
